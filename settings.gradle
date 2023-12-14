@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        mavenCentral()
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        mavenCentral()
+        jcenter()
+    }
+}
+rootProject.name = "GCZPlayer"
+include ':app'
+include ':common'
+include ':superplayerkit'
+include ':vodcommon'
+include ':feedvideo'
+
