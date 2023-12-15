@@ -8,7 +8,7 @@ plugins {
 ext {
     compileSdkVersion = 32
     minSdkVersion = 19
-    targetSdkVersion = 27
+    targetSdkVersion = 30
     buildToolsVersion = "30.0.3"
     versionCode = 202311140
     versionName = "8.3.65"
